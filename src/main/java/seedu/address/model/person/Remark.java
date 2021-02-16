@@ -9,6 +9,10 @@ import static java.util.Objects.requireNonNull;
 public class Remark {
     public final String value;
 
+    /**
+     * Create a remark object.
+     * @param remark User input for remark.
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;
